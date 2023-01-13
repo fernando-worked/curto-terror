@@ -14,6 +14,7 @@ function App() {
         <Route path="/:texto" element={<WrapperApp />} />
         <Route path="/" element={<WrapperApp />} />
         <Route path="/curto-terror" element={<WrapperApp />} />
+        <Route path="/curto-terror/:texto" element={<WrapperApp />} />
       </Routes>
     </Router>
   );
