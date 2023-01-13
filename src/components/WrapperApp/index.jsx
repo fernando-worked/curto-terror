@@ -138,10 +138,10 @@ function WrapperApp() {
             setTextoSelecionado(result[0]);
         }
 
-
+        if(texto.toLocaleLowerCase() !== 'curto-terror')
         navigate('/');
 
-    }
+    } 
 
     function scroll() {
         document.getElementById('content-holder').scrollTo(0, 0);

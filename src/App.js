@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/:texto" element={<WrapperApp />} />
         <Route path="/" element={<WrapperApp />} />
+        <Route path="/curto-terror" element={<WrapperApp />} />
       </Routes>
     </Router>
   );
