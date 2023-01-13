@@ -1,0 +1,43 @@
+.tile-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tile-content:hover {
+    cursor: pointer;
+}
+
+.tile-content:last-child {
+    margin-bottom: 5.5vh;
+}
+
+
+
+.tile-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #b0bec5;
+    border: 1px solid black;
+    margin: 2px;
+    border-radius: 5px;
+
+}
+
+.tile-grid:hover{
+    background-color: #607d8b;
+    
+}
+
+.conteudo-grid {
+    height: 90px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,11 @@
+.campo-busca{
+    width: 85%;
+    position: relative;
+}
+
+#campo-busca{
+    width: 100%;
+    height: 30px;
+    padding: 7px;
+    margin: 7px;
+} 

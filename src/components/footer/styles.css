@@ -1,0 +1,14 @@
+.footer{
+    background-color: red;
+    width: 100%;
+    max-width: 1200px;
+    height: 6vh;
+    position: fixed;
+    
+}
+
+.conteudo-footer{
+    margin-left: 5px;
+    text-align: center;
+    font-weight: bold;
+}

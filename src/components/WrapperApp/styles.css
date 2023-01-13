@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapperapp {
+    width: 100%;
+    max-width: 1200px;
+    background-color: rgba(174, 184, 177, 0.9);
+    position: absolute;
+}
+
+.texto {
+    line-height: 2;
+    margin-left: 15px;
+    text-align: left;
+}
+
+
+.btn-holder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-place {
+    margin: 2px;
+}
+
+
+.btn-place>input {
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+}
+
+.btn-place>input:not([disabled]):hover {
+    cursor: pointer;
+}
+
+.titulo-holder {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    min-height: 35px;
+    width: 100%;
+}
+
+.content-holder {
+    height: 80vh;
+    overflow-y: auto;
+}
+
+
+.cabecalho-holder {
+    margin-top: 10vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+.conteudo-site {
+    margin-top: 14vh;
+    max-height: 80vh;
+}
+
+.fundo {
+    background-color: rgba(174, 184, 177, 0.9);
+    min-height: 86vh;
+    height: 100%;
+    padding: 5px;
+}
+
+.site {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,18 @@
+.header {
+    width: 100%;
+    max-width: 1200px;
+    height: 10vh;
+    background-color: red;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+
+@media (max-width: 500px) {
+    .header {
+        font-size: 15px;
+    }
+}
