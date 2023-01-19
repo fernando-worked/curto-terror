@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/curto-terror/static/css/main.b998d62e.css",
-    "main.js": "/curto-terror/static/js/main.62ec0362.js",
+    "main.js": "/curto-terror/static/js/main.68b5e962.js",
     "index.html": "/curto-terror/index.html",
     "main.b998d62e.css.map": "/curto-terror/static/css/main.b998d62e.css.map",
-    "main.62ec0362.js.map": "/curto-terror/static/js/main.62ec0362.js.map"
+    "main.68b5e962.js.map": "/curto-terror/static/js/main.68b5e962.js.map"
   },
   "entrypoints": [
     "static/css/main.b998d62e.css",
-    "static/js/main.62ec0362.js"
+    "static/js/main.68b5e962.js"
   ]
 }
